@@ -11,7 +11,7 @@ This lab is used to demonstrate an understanding of a enterprise helpdesk enviro
 - Created the domain lab.local and connected win10 vm and second windows server VM
 <img width="1485" height="684" alt="win10domain_connection" src="https://github.com/user-attachments/assets/17e4ee2f-e1a4-449d-b0b3-732ab2c2f222" />
 
--I utilized OU by role because it allows the GPO to be applied based on job function rather than location which is relvenet because this is a virtual environment. Role based OU also make it easier to enforce polices per group and limits access by role.
+I utilized OU by role because it allows the GPO to be applied based on job function rather than location which is relvenet because this is a virtual environment. Role based OU also make it easier to enforce polices per group and limits access by role.
 - Created OU and groups as follow. OU: Coaches, Players, Management, Staff with corresponding groups: grp_players, grp_management, grp_coaches, grp_staff
 <img width="1398" height="834" alt="OKC_Thunder_OU" src="https://github.com/user-attachments/assets/d1007646-f813-4a67-ba62-33facf560c85" />
 
@@ -79,7 +79,7 @@ This lab is used to demonstrate an understanding of a enterprise helpdesk enviro
 <img width="1281" height="854" alt="Screenshot 2026-03-17 212140" src="https://github.com/user-attachments/assets/ed2f317b-7876-4218-ba54-801220d795f3" />
 
 ## Part 3 — Helpdesk Simulation
-- For the simulation I login in as a user of the OKC organization(Shai Gilgeous Alexander), submit a ticket that creds were lost on osticket. Login in to osticket as an agent (gil) response to the request, and then resolve the ticket and verifiy user connectivity
+For the simulation I login in as a user of the OKC organization(Shai Gilgeous Alexander), submit a ticket that creds were lost on osticket. Login in to osticket as an agent (gil) response to the request, and then resolve the ticket and verifiy user connectivity
 
 - Login as the user (shai) 
 <img width="1481" height="680" alt="sim_login" src="https://github.com/user-attachments/assets/445607c1-5828-4717-8737-35c7e12151bd" />
