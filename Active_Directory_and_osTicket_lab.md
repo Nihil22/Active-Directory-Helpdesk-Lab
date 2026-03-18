@@ -56,7 +56,7 @@ This lab is used to demonstrate an understanding of a enterprise helpdesk enviro
 - IIS installed
 <img width="1471" height="672" alt="Screenshot 2026-03-17 210312" src="https://github.com/user-attachments/assets/a40d1141-1611-4322-a56f-4ee0e1c51cce" />
 
-- MYsql user creation
+- MySQL user creation
 <img width="985" height="316" alt="Screenshot 2026-03-16 172925" src="https://github.com/user-attachments/assets/ea118cd7-9b84-46a4-94dd-8b7f58360064" />
 
 
