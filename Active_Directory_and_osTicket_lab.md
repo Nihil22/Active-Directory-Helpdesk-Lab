@@ -4,7 +4,7 @@
 This lab is used to demonstrate an understanding of a enterprise helpdesk environement, Where I simulate setting up an AD domain for an organization, in which I choose the OKC Thunder. Creating players, staff, management, and coaches). In the organization I set up GPO and user accounts. I then moved to hosting a ticketing systems using Windows IIS and osticket, I then simulated a user request and resolved the ticket utilizing priviliages as a user in the IT department. 
 
 ## Environment
-- Run on a Dell T430 running Proxmox on a indepenent Vlan (192.168.10.0/24)
+- Run on a Dell T430 running Proxmox on a independent Vlan (192.168.10.0/24)
 <img width="849" height="866" alt="Screenshot 2026-03-17 195318" src="https://github.com/user-attachments/assets/3d04db1a-d6c9-4e3e-a0e5-a2b1a6bcc1b6" />
 
 ## Part 1 — Active Directory Setup
@@ -34,7 +34,7 @@ This lab is used to demonstrate an understanding of a enterprise helpdesk enviro
 - Players
 <img width="1286" height="806" alt="pwsh_players_proof" src="https://github.com/user-attachments/assets/2967974f-2440-484d-b69d-a2094bb0662b" />
 
-- Created IT deptartment in where I utilize the gil user to conduct support.
+- Created IT department in where I utilize the gil user to conduct support.
 <img width="1078" height="664" alt="IT_dept" src="https://github.com/user-attachments/assets/017161df-67a6-4602-a259-d60ae13e13d6" />
 
 
@@ -59,7 +59,7 @@ This lab is used to demonstrate an understanding of a enterprise helpdesk enviro
 - OsTicket Install
 <img width="1362" height="829" alt="Osticket_install" src="https://github.com/user-attachments/assets/78d9d65d-c873-414f-bd9c-e82acb81cc4f" />
 
-- OsTicket requires agents (IT dept), orgnaizations (groups), Help topics(what does the person genrally need help with)and then users(clients).
+- OsTicket requires agents (IT dept), organizations (groups), Help topics(what does the person genrally need help with)and then users(clients).
 
 - OsTicket agents
 <img width="1281" height="864" alt="osticket_agents" src="https://github.com/user-attachments/assets/a4a3d0dd-54f3-44e2-b41c-7b0a93cfc759" />
@@ -74,7 +74,7 @@ This lab is used to demonstrate an understanding of a enterprise helpdesk enviro
 <img width="1281" height="854" alt="Screenshot 2026-03-17 212140" src="https://github.com/user-attachments/assets/ed2f317b-7876-4218-ba54-801220d795f3" />
 
 ## Part 3 — Helpdesk Simulation
-- For the simulation I login in as a user of the OKC organization(shai gilgeous Alexander), submit a ticket that creds were lost on osticket. Login in to osticket as an agent (gil) response to the request, and then resolve the ticket and verifiy user connectivity
+- For the simulation I login in as a user of the OKC organization(Shai Gilgeous Alexander), submit a ticket that creds were lost on osticket. Login in to osticket as an agent (gil) response to the request, and then resolve the ticket and verifiy user connectivity
 
 - Login as the user (shai) 
 <img width="1481" height="680" alt="sim_login" src="https://github.com/user-attachments/assets/445607c1-5828-4717-8737-35c7e12151bd" />
