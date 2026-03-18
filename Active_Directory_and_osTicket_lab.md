@@ -89,7 +89,7 @@ This lab is used to demonstrate an understanding of a enterprise helpdesk enviro
 <img width="1291" height="867" alt="Screenshot 2026-03-17 185912" src="https://github.com/user-attachments/assets/bcc7a544-f1e6-438d-bafe-503efa31e9f0" />
 <img width="1293" height="872" alt="Screenshot 2026-03-17 184759" src="https://github.com/user-attachments/assets/405e257d-397b-4be3-a4f9-6297ff98e457" />
 
-- Agent Gil recives the ticket from Shai regarding account lockout issues
+- Agent Gil receives the ticket from Shai regarding account lockout issues
 <img width="1290" height="865" alt="sim_response_ticket" src="https://github.com/user-attachments/assets/a917bf5d-1e71-4dca-8d80-de4373eccfc0" />
 
 - Responds to the ticket in Active Directory Users and Computers(ADUC) to reset password for user shai 
