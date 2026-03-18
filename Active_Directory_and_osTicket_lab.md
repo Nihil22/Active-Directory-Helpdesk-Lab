@@ -1,7 +1,7 @@
 # Active Directory & Helpdesk Lab
 
 ## Overview
-This lab is used to demonstrate an understanding of a enterprise helpdesk environement, Where I simulate setting up an AD domain for an organization, in which I choose the OKC Thunder. Creating players, staff, management, and coaches). In the organization I set up GPO and user accounts. I then moved to hosting a ticketing systems using Windows IIS and osticket, I then simulated a user request and resolved the ticket utilizing priviliages as a user in the IT department. 
+This lab is used to demonstrate an understanding of a enterprise helpdesk environement, Where I simulate setting up an AD domain for an organization, in which I choose the OKC Thunder. Creating players, staff, management, and coaches). In the organization I set up GPO and user accounts. I then moved to hosting a ticketing systems using Windows IIS and osticket, I then simulated a user request and resolved the ticket utilizing privileges as a user in the IT department. 
 
 ## Environment
 - Run on a Dell T430 running Proxmox on a independent Vlan (192.168.10.0/24)
@@ -11,10 +11,11 @@ This lab is used to demonstrate an understanding of a enterprise helpdesk enviro
 - Created the domain lab.local and connected win10 vm and second windows server VM
 <img width="1485" height="684" alt="win10domain_connection" src="https://github.com/user-attachments/assets/17e4ee2f-e1a4-449d-b0b3-732ab2c2f222" />
 
-- Created OU and groups as follow. OU: Coaches, Players, Managment, Staff with corresponding groups: grp_players, grp_managment, grp_coaches, grp_staff
+-I utilized OU by role because it allows the GPO to be applied based on job function rather than location which is relvenet because this is a virtual environment. Role based OU also make it easier to enforce polices per group and limits access by role.
+- Created OU and groups as follow. OU: Coaches, Players, Management, Staff with corresponding groups: grp_players, grp_management, grp_coaches, grp_staff
 <img width="1398" height="834" alt="OKC_Thunder_OU" src="https://github.com/user-attachments/assets/d1007646-f813-4a67-ba62-33facf560c85" />
 
-- Utilized a powershell script to add users to the OU and groups
+- Since this onboarding requiried me making over 20 users I utilized a powershell script to add users to the OU and groups
 <img width="1304" height="808" alt="PWsh_script1" src="https://github.com/user-attachments/assets/adfc118b-70cf-4ce5-83e3-d4f121edb599" />
 <img width="1340" height="700" alt="pwsh_script2" src="https://github.com/user-attachments/assets/64d97925-2db1-4390-abaf-be4a0db5ebb7" />
 <img width="1106" height="579" alt="pwsh_proof" src="https://github.com/user-attachments/assets/28deb94d-e88d-493f-b6c1-a1496aef18a2" />
@@ -25,7 +26,7 @@ This lab is used to demonstrate an understanding of a enterprise helpdesk enviro
 - Coaches
 <img width="1286" height="760" alt="Coaches_OU" src="https://github.com/user-attachments/assets/0d292427-2524-45aa-8fc7-0e0e67fd8325" />
 
-- Managment
+- Management
 <img width="1337" height="818" alt="management_OU" src="https://github.com/user-attachments/assets/b243540b-30df-413b-bdb4-8c9d40647b38" />
 
 - Staff
@@ -38,14 +39,14 @@ This lab is used to demonstrate an understanding of a enterprise helpdesk enviro
 <img width="1078" height="664" alt="IT_dept" src="https://github.com/user-attachments/assets/017161df-67a6-4602-a259-d60ae13e13d6" />
 
 
-- Configured Group Policy Restricting access to control panel for users outside IT dept
+- Configured Group Policy Restricting access to control panel for users outside IT dept. I placed this restriction at the OU level because it only needs to apply to the user not the entire domain.
 <img width="1425" height="831" alt="GPO_restrict_Cpn" src="https://github.com/user-attachments/assets/e034eb3f-8ef6-4bf2-9b2c-a3f2e0f50148" />
 
 - Proof of User account restricted control panel access
 <img width="1391" height="838" alt="control_panel_block" src="https://github.com/user-attachments/assets/c92a4c13-191b-442b-a6d5-254305fe1bee" />
 
 
-- Configured Group Policy enforcing password security settings and focing new signon for then new users
+- Configured a Group Policy enforcing password security settings and focing new sign on for then new users. I placed the link at the domain level becauses windows applies password polices from domain levels for GPOs.
 <img width="1311" height="846" alt="GPO_passwd" src="https://github.com/user-attachments/assets/8c5cbd78-55ee-43d3-a30d-e3256e0b390b" />
 
 
