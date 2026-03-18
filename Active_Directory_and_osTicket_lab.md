@@ -41,6 +41,10 @@ This lab is used to demonstrate an understanding of a enterprise helpdesk enviro
 - Configured Group Policy Restricting access to control panel for users outside IT dept
 <img width="1425" height="831" alt="GPO_restrict_Cpn" src="https://github.com/user-attachments/assets/e034eb3f-8ef6-4bf2-9b2c-a3f2e0f50148" />
 
+- Proof of User account restricted control panel access
+<img width="1391" height="838" alt="control_panel_block" src="https://github.com/user-attachments/assets/c92a4c13-191b-442b-a6d5-254305fe1bee" />
+
+
 - Configured Group Policy enforcing password security settings and focing new signon for then new users
 <img width="1311" height="846" alt="GPO_passwd" src="https://github.com/user-attachments/assets/8c5cbd78-55ee-43d3-a30d-e3256e0b390b" />
 
