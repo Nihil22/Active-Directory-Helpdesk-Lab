@@ -8,13 +8,13 @@ This lab is used to demonstrate an understanding of a enterprise helpdesk enviro
 <img width="849" height="866" alt="Screenshot 2026-03-17 195318" src="https://github.com/user-attachments/assets/3d04db1a-d6c9-4e3e-a0e5-a2b1a6bcc1b6" />
 
 ## Part 1 — Active Directory Setup
-- created the domain lab.local and connected win10 vm and second windows server VM
+- Created the domain lab.local and connected win10 vm and second windows server VM
 <img width="1485" height="684" alt="win10domain_connection" src="https://github.com/user-attachments/assets/17e4ee2f-e1a4-449d-b0b3-732ab2c2f222" />
 
 - Created OU and groups as follow. OU: Coaches, Players, Managment, Staff with corresponding groups: grp_players, grp_managment, grp_coaches, grp_staff
 <img width="1398" height="834" alt="OKC_Thunder_OU" src="https://github.com/user-attachments/assets/d1007646-f813-4a67-ba62-33facf560c85" />
 
-- Utilized a powershell to add users to the OU and groups
+- Utilized a powershell script to add users to the OU and groups
 <img width="1304" height="808" alt="PWsh_script1" src="https://github.com/user-attachments/assets/adfc118b-70cf-4ce5-83e3-d4f121edb599" />
 <img width="1340" height="700" alt="pwsh_script2" src="https://github.com/user-attachments/assets/64d97925-2db1-4390-abaf-be4a0db5ebb7" />
 <img width="1106" height="579" alt="pwsh_proof" src="https://github.com/user-attachments/assets/28deb94d-e88d-493f-b6c1-a1496aef18a2" />
