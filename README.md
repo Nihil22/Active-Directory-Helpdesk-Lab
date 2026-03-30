@@ -1,7 +1,7 @@
 # Active Directory Helpdesk Lab
 
 ## Overview
-This lab is used to demonstrate an understanding of a enterprise helpdesk environement, Where I simulate setting up an AD domain for an organization, in which I choose the OKC Thunder. Creating players, staff, management, and coaches). In the organization I set up GPO and user accounts. I then moved to hosting a ticketing systems using Windows IIS and osticket, I then simulated a user request and resolved the ticket utilizing privileges as a user in the IT department. 
+This lab is used to demonstrate an understanding of a enterprise helpdesk environement, Where I simulate setting up an AD domain for an organization, in which I choose the OKC Thunder. Creating players, staff, management, and coaches). In the organization I set up GPO and user accounts. I then moved to hosting a ticketing systems using Windows IIS, MySQL, and osticket, I then simulated a user request and resolved the ticket utilizing privileges as a user in the IT department. 
 
 ## Environment
 - Run on a Dell T430 running Proxmox on a independent Vlan (192.168.10.0/24)
